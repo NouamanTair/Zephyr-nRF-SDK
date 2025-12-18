@@ -19,11 +19,11 @@ west flash
 
 | Effect            | Description                                  | Visual Pattern |
 |-------------------|----------------------------------------------|----------------|
-| Knight Rider      | Classic scanning LED moving back and forth   | `[---] → [--] → [-] → [--] → back` |
-| Wave              | Progressive fill then empty                  | `[---] → [--] → [-] → []` |
-| Alternate Flash   | Even/odd LEDs alternate                      | `[--] ↔ [--]` |
-| Converge          | Outer to inner LED pairs                     | `[--] ↔ [--]` |
-| Binary Counter    | Counts 0–15 in binary                        | 4 LEDs binary |
-| Sparkle           | Pseudo-random twinkling (LFSR)               | Random |
-| Breathe           | Fade in/out (software PWM)                   | All LEDs pulse |
-| Cascade           | Two adjacent LEDs rotate                     | `[--] → [--] → [--]` |
+| Knight Rider      | Classic scanning LED moving back and forth   | `[*---] → [-*--] → [--*-] → [---*] → back` |
+| Wave              | Progressive fill then empty                  | `[*---] → [**--] → [***-] → [****] → empty` |
+| Alternate Flash   | Even/odd LEDs alternate                      | `[*-*-] ↔ [-*-*]` |
+| Converge          | Outer to inner LED pairs                     | `[*--*] ↔ [-**-]` |
+| Binary Counter    | Counts 0–15 in binary                        | Displays binary numbers on 4 LEDs |
+| Sparkle           | Pseudo-random twinkling                      | Random patterns using LFSR |
+| Breathe           | Fade in/out (software PWM)                   | All LEDs pulse together |
+| Cascade           | Two adjacent LEDs rotate                     | `[**--] → [-**-] → [--**] → [*--*]` |
