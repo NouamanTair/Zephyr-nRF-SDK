@@ -1,4 +1,4 @@
-# nRF Connect SDK Projects
+# Zephyr nRF Connect SDK Projects
 
 A collection of projects and examples for the **Nordic nRF5340** Development Kit 
 using **Zephyr RTOS** and the **nRF Connect SDK**.
