@@ -6,8 +6,8 @@
  * 
  * Platform:    Nordic nRF5340 DK
  * RTOS:        Zephyr RTOS
- * Author:      [Your Name]
- * License:     MIT (or your preferred license)
+ * Author:      Nouaman Tair
+ * License:     MIT
  * 
  * Hardware Requirements:
  *   - nRF5340 Development Kit with 4 LEDs (LED0-LED3)
