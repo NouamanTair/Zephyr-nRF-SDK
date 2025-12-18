@@ -13,3 +13,14 @@ on the Nordic nRF5340 Development Kit.
 ```bash
 west build -b nrf5340dk_nrf5340_cpuapp
 west flash
+
+**## Effects Summary**
+Effect	              Description	                                                Visual Pattern
+Knight Rider	        Classic scanning LED moving back and forth	                [*---] → [-*--] → [--*-] → [---*] → back
+Wave	                Progressive fill then empty	                                [*---] → [**--] → [***-] → [****] → empty
+Alternate Flash	      Even/odd LEDs alternate	                                    [*-*-] ↔ [-*-*]
+Converge	            Outer to inner LED pairs	                                  [*--*] ↔ [-**-]
+Binary Counter	      Counts 0-15 in binary	                                      Displays binary numbers on 4 LEDs
+Sparkle	              Pseudo-random twinkling	                                    Random patterns using LFSR
+Breathe	              Fade in/out (software PWM)	                                All LEDs pulse together
+Cascade	              Two adjacent LEDs rotate	                                  [**--] → [-**-] → [--**] → [*--*]
